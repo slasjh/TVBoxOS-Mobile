@@ -99,7 +99,7 @@ public class MainActivity extends BaseVbActivity<ActivityMainBinding> {
 
     private void confirmExit() {
         if (System.currentTimeMillis() - exitTime > 2000) {
-            ToastUtils.showShort("再按一次退出程序");
+            ToastUtils.showShort("再按一次退出程序，关注X开源精粹公众号");
             exitTime = System.currentTimeMillis();
         } else {
             ActivityUtils.finishAllActivities(true);
